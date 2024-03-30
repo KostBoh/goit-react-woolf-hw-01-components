@@ -17,14 +17,17 @@ export const Profile = ({
       <ul class="stats">
         <li>
           <span class="label">Followers</span>
+          <br />
           <span class="quantity">{followers}</span>
         </li>
         <li>
           <span class="label">Views</span>
+          <br />
           <span class="quantity">{views}</span>
         </li>
         <li>
           <span class="label">Likes</span>
+          <br />
           <span class="quantity">{likes}</span>
         </li>
       </ul>
