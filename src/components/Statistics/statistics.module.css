@@ -4,7 +4,7 @@
   align-items: center;
   justify-content: center;
   margin: 0 auto;
-  max-width: 200px;
+  max-width: 400px;
   padding: 20px;
   border: 1px solid #ccc;
   border-radius: 5px;
@@ -14,15 +14,22 @@
 .title {
   font-size: 24px;
   font-weight: bold;
+  margin-bottom: 10px;
 }
 
 .stat-list {
+  display: flex;
   list-style-type: none;
   padding: 0;
 }
 
 .item {
-  margin-top: 10px;
+  margin: 10px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  width: 40px;
+  background-color: #ddecff;
 }
 
 .label {
@@ -31,4 +38,5 @@
 
 .percentage {
   color: green;
+  line-height: 2;
 }
