@@ -1,15 +1,15 @@
 export const Statistics = ({ title, stats }) => {
   return (
-    <section class="statistics">
-      {title && <h2 class="title">{title}</h2>}
+    <section className="statistics">
+      {title && <h2 className="title">{title}</h2>}
 
-      <ul class="stat-list">
+      <ul className="stat-list">
         {stats.map(({ id, label, percentage }) => {
           return (
-            <li class="item" key={id}>
-              <span class="label">{label}</span>
+            <li className="item" key={id}>
+              <span className="label">{label}</span>
               <br />
-              <span class="percentage">{percentage}%</span>
+              <span className="percentage">{percentage}%</span>
               <hr />
             </li>
           );
