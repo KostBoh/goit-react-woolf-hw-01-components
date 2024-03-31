@@ -13,7 +13,7 @@ export const App = () => {
     <>
       <div
         style={{
-          height: '30vh',
+          height: '20vh',
           display: 'flex',
           justifyContent: 'center',
           alignItems: 'center',
@@ -23,26 +23,14 @@ export const App = () => {
       >
         React homework template
       </div>
+
       <Profile {...user} />
-      <br />
-      <hr />
-      <br />
-      <hr />
+
       <Statistics title="Upload stats" stats={data} />
-      <br />
-      <hr />
-      <br />
-      <hr />
+
       <FriendList friends={friends} />
-      <br />
-      <hr />
-      <br />
-      <hr />
+
       <TransactionHistory items={transactions} />
-      <br />
-      <hr />
-      <br />
-      <hr />
     </>
   );
 };
